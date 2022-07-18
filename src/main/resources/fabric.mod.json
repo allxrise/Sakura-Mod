@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "sakura",
+  "version": "${version}",
+  "name": "Sakura",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sakura/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.allxrise.sakura.client.SakuraClient"
+    ],
+    "main": [
+      "io.github.allxrise.sakura.Sakura"
+    ]
+  },
+  "mixins": [
+    "sakura.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
